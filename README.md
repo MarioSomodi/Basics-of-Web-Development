@@ -1,4 +1,4 @@
-# Basics-of-Web-Development
+# Basics of Web Development
 ## Things I have learned 
 * Learned the syntax for HTML, CSS, JavaScript, JQuery.
 * Learned basic syntax for PHP and AJAX.
