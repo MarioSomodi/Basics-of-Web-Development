@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Forma</title>
+    <script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="css/forma.css">
+</head>
+<body>
+    
+    <div id="dvFormContainer">
+        <h3 class="naslov">Student</h3>
+        <table>
+            <tr>
+                <td>Ime studenta:</td>
+                <td> <input type="text" id="inptIme"> </td>
+            </tr>
+            <tr>
+                <td>Prezime studenta:</td>
+                <td> <input type="text" id="inptPrezime"> </td>
+            </tr>
+            <tr>
+                <td>OIB:</td>
+                <td> <input type="text" id="inptOIB">  </td>
+            </tr>
+            <tr>
+                <td>Godina rođenja:</td>
+                <td>
+                    <select id="dpGodinaRodjenja">
+                        <option value="-1">--Odaberite godinu--</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <button onclick="Spremi()">Spremi</button> </td>
+            </tr>
+        </table>
+    </div>
+    
+
+<script src="js/forma.js"></script>
+</body>
+</html>

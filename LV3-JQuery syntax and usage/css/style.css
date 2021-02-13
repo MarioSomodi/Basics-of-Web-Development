@@ -1,0 +1,25 @@
+#naslov
+{
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+#toDoLista
+{
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	background-color: #ADD8E6;
+	text-align: center;
+}
+#dodajZadatak
+{
+	background-color: #90EE90;
+}
+.pojediniZadatak
+{
+	text-align: left;
+}
+.pojediniZadatak:hover
+{
+	cursor:pointer;
+}
