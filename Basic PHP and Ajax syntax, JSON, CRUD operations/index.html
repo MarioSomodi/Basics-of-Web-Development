@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Pregled vijesti</title>
+	    <script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+	    <link rel="stylesheet" href="assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.css">
+	    <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<header>
+			    <nav class="navbar navbar-default navbar-fixed-top">
+			        <div class="container-fluid">
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+			                    <span class="icon-bar"></span>
+			                    <span class="icon-bar"></span>
+			                    <span class="icon-bar"></span>
+			             </button>
+			                <a class="navbar-brand" href="index.html"><img src="img/vsmti_logo.png"></a>
+			            </div>
+			            <div class="collapse navbar-collapse" id="main-navbar">
+			                <ul class="nav navbar-nav">
+			                    <li class="active"><a href="index.html">Pregled vijesti</a></li>
+			                    <li><a href="administracija.html"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Administracija</a></li>
+			                </ul>
+			            </div>
+			        </div>
+			    </nav>
+			</header>
+			<div class="vijesti-container">
+				<h3 class="page-header">Obavijesti studentima</h3>
+				<div id="sve-vijesti">
+				</div>
+			</div>
+		</div>
+		<script src="assets/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script src="js/getNews.js"></script>
+		<script>
+			$(document).ready(function(){
+	 			UcitajVijestiNaslovnice()
+			});
+		</script>
+	</body>
+</html>
