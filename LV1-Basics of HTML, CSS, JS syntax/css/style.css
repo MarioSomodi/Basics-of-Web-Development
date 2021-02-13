@@ -1,0 +1,54 @@
+body
+{
+	margin:20px;
+	font-family:Arial;
+	background-color:#f1f1f1;
+}
+h1
+{
+	font-size:28px;
+	color:#404040;
+}
+h2
+{
+	font-size:26px;
+	color:#404040;
+}
+h3
+{
+	font-size:24px;
+	color:#404040;
+}
+h4
+{
+	font-size:22px;
+	color:#404040;
+}
+h5
+{
+	font-size:20px;
+	color:#404040;
+}
+h6
+{
+	font-size:18px;
+	color:#404040;
+}
+a
+{
+	color:#0069ff;
+}
+img
+{
+	display:block;
+	margin:auto;
+}
+.godina
+{
+	color:#0069FF;
+	margin-top:40px;
+}
+.godina
+{
+	text-decoration: underline;
+}
