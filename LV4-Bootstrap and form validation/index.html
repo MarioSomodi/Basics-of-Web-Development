@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="hr">
+ 	<head>
+ 		<meta charset="utf-8">
+ 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+ 		<link href="assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+ 		<title>Bootstrap</title>
+ 	</head>
+ 	<body>
+ 		<header>
+
+ 			<div class="modal fade" id="myForm" tabindex="-1" role="dialog" ">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header bg-info">
+							<button class="close" data-dismiss="modal">
+								<span aria-hidden="true">&times;</span>
+								<span class="sr-only">Zatvori</span>
+							</button>
+							<h4 class="modal-title text-center" id="myModalLabel">Prijava</h4>
+						</div>
+						<div class="modal-body">
+							<form>
+								<div class="form-group">
+									<label for="InputMail">Email</label>
+									<input type="email" class="form-control" id="InputMail" placeholder="email">
+								</div>
+								<div class="form-group">
+									<label for="Password">Lozinka</label>
+									<input type="password" class="form-control" id="Password" placeholder="Lozinka">
+								</div>
+								<div class="checkbox">
+									<label>
+									<input type="checkbox"> Zapamti me
+									</label>
+								</div>
+								<button type="submit" class="btn btn-success">Potvrdi</button>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" datadismiss="modal">Zatvori</button>
+							<button type="button" class="btn btn-info">Spremi</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+				 <div class="container-fluid">
+					 <div class="navbar-header">
+						 <button type="button" class="navbar-toggle" data-toggle="collapse"
+						 data-target="#mojNavbar">
+							 <span class="icon-bar"></span>
+							 <span class="icon-bar"></span>
+							 <span class="icon-bar"></span>
+						 </button>
+						 <a class="navbar-brand" href="#">Mario Somodi</a>
+					 </div>
+					 <div class="collapse navbar-collapse" id="mojNavbar">
+						 <ul class="nav navbar-nav">
+							 <li><a href="#oMeni">O meni</a></li>
+							 <li><a href="#projekti">Projekti</a></li>
+							 <li><a href="#hobi">Hobi</a></li>
+							 <li><a href="#kontakt">Kontakt</a></li>
+							 <li><a href="#" data-toggle="modal" data-target="#myForm"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+						 </ul>
+					 </div>
+				 </div>
+			 </nav>
+ 			<div class="jumbotron">
+ 				<div class="container text-center">
+ 					<h1>Mario Somodi</h1>
+ 					<p>Jednog dana želim biti developer...</p>
+ 					<button type="submit" class="btn btn-default"> Otrkrij vise..</button>
+ 				</div>
+ 			</div>
+			<section id="oMeni">
+				<hr/>
+				
+				<div class="row">
+					<div class="col-md-12 text-left">
+						<h1>O meni</h1>
+					</div>
+				</div>
+
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion"
+							href="#collapse1">O meni</a></h4>
+						</div>
+						<div id="collapse1" class="panel-collapse collapse in">
+							<div class="panel-body">
+							Zovem se Mario Somodi, jednog dana bih volio biti backend developer.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion"
+							href="#collapse2">Školovanje</a></h4>
+						</div>
+						<div id="collapse2" class="panel-collapse collapse">
+							<div class="panel-body">
+							Trenutno studiram Programsko Inzinjerstvo na VSMTI-u.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion"
+							href="#collapse3">Ambicije</a></h4>
+						</div>
+						<div id="collapse3" class="panel-collapse collapse">
+							<div class="panel-body">
+							Zelim nauciti dosta programskih jezika tj. zelim biti osoba koja se lagano prilagodi novim tehnologijama nikada ne planiram prestati istrazivati nove koncepte koje mi mogu olaksati neki dio posla.
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="projekti">
+					<div class="col-md-12">
+					 	<h3 class="text-info text-center">Projekti</h3>
+					 	<table class="table table-hover">
+							 <thead>
+								 <tr>
+									 <th>Projekt</th>
+									 <th>Naručitelj</th>
+									 <th>Godina izrade</th>
+								 </tr>
+							 </thead>
+							 <tbody>
+								 <tr>
+									 <td>Izrada web stranice</td>
+									 <td> Tvrtka d.o.o. 33000 Virovitica</td>
+									 <td>2017.</td>
+								 </tr>
+								 <tr>
+									 <td>Projektiranje i izvedba mrežne infrastrukture</td>
+									 <td> NetLab d.o.o., 10000 Zagreb</td>
+									 <td>2016.</td>
+								 </tr>
+								 <tr>
+									 <td>Izrada android aplikacije</td>
+									 <td> Turistički ured 35333 Majkovac</td>
+									 <td>2015.</td>
+								 </tr>
+							 </tbody>
+						</table> 
+					</div>
+				</div>
+
+			</section>
+
+			<section id="hobi">
+				<hr/>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Hobiji</h1>
+					</div>
+				</div>
+			
+				<div class="row">
+					<div class="col-sm-4" style="border-right: 1px solid #333;">
+					 	<h3>Social networking <span class="glyphicon glyphicon-phone"></span></h3>
+					 	<p class="text-info">
+					 		Rast povezanosti na socijalnim mrezama i skupljanje "publike" tj ljudi koji sudjeluje u objavljenim postovima.
+					 	</p>
+					</div>
+
+					<div class="col-sm-4" style="border-right: 1px solid #333;">
+					 	<h3>Video igre <span class="glyphicon glyphicon-knight"></span></h3>
+					 	<p class="text-info">
+					 		Volim ponekad provoditi svoje slobodno vrijeme tako sto upalim neku video igru i malo zaboravim na svijet.
+					 	</p>
+					</div>
+
+					<div class="col-sm-4" style="border-right: 1px solid #333;">
+					 	<h3>Teretana <span class="glyphicon glyphicon-sunglasses"></span></h3>
+					 	<p class="text-info">
+					 		Otici u <mark>teretanu</mark> i ispustiti sav stres nakon dugog dana mi je nesto najbolje. Uostalom volim raditi na sebi i svom izgledu jednostavno se bolje osjecam nakon treinga.
+					 	</p>
+					</div>
+				</div>
+
+				<hr/>
+			
+			</section>
+			
+			<section id="kontakt">
+				
+				<div class="row">
+					 <div class="col-md-12">
+					 	<h1>Kontakt</h1>
+					 </div>
+				 </div>
+				 
+			<div class="row">
+				<div class="col-sm-12">
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="name" name="name" placeholder="Vaše ime" type="text">
+							<div class="form-warrning ">
+								<p id="msg1"></p>
+							</div>
+						</div>
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="email" name="email"	placeholder="email" type="email"74>
+							<div class="form-warrning">
+								<p id="msg2"></p>
+							</div>
+						</div>
+						<div class="col-sm-12 form-group">
+							<textarea class="form-control" id="poruka" name="poruka" placeholder="poruka" rows="6"></textarea>
+							<div class="form-warrning">
+								<p id="msg3"></p>
+							</div>
+						<br>
+						</div>
+						<div class="col-sm-12 form">
+							<button class="btn btn-info pull-right" type="submit" onclick="myContactValidator()">Pošalji</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<hr/>
+			
+			</section>
+
+ 		</header>
+ 		<footer >
+ 			
+ 			<div class="col-md-12 bg-info">
+ 				<blockquote>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand" – Martin Fowler</blockquote>
+ 			</div>
+
+ 		</footer>
+ 		<script src="js/script.js"></script>
+ 		<script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+ 		<script src="assets/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+ 	</body>
+</html>
