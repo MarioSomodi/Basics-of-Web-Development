@@ -1,0 +1,156 @@
+/*
+
+**************************************
+         ===  B  O  J  E  ===
+
+zaglavlje i podnožje pozadina: #D8D8D8
+plava: #0D6DB5
+tekst: #535353
+
+**************************************
+*/
+
+
+*
+{
+	font-size: 18px;
+	font-family:  Arial;
+	color:#535353;
+}
+body
+{
+	margin:0;
+	padding: 0;
+	background-color: #e8e8e8;
+}
+
+#stranica
+{
+	margin:0;
+	padding: 0;
+	width: 100%;
+}
+
+header
+{
+	background-color: #D8D8D8;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header #logo,
+header #navigacija
+{
+	display: inline-block;
+	
+}
+
+header #logo
+{
+	width: 20%;
+	margin-top: 10px;
+}
+
+header nav
+{
+	width: 50%;
+}
+
+header #navigacija li 
+{
+	display: inline-block;
+	padding: 10px;
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+#navigacija li a
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#navigacija li.aktivna a
+{
+	text-decoration: underline;
+	font-weight: 900;
+}
+
+main,
+footer
+{
+	display: block;
+	width: 1100px;
+	margin: 15px auto;
+}
+
+footer
+{
+	box-sizing: border-box;
+	background-color: #D8D8D8;
+	padding: 15px;
+}
+
+footer p
+{
+	text-align: center;
+}
+
+#slika-skola
+{
+	width: 1100px;
+}
+
+#sadrzaj
+{
+	padding: 25px;
+	margin: 10px 0 15px 0;
+	background-color: white;
+}
+
+#sadrzaj h1
+{
+	color:#0D6DB5;
+	font-size: 120%;
+}
+.datum
+{
+	background-color: #0D6DB5;
+	color: white;
+	padding-right: 6%;
+	padding-left:  6%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.obavijesti a
+{
+	color: #0D6DB5;
+	text-decoration: unset;
+}
+.aboutText
+{
+	margin-bottom: 5%;
+	line-height: 170%;
+}
+#studiji ul
+{
+	line-height: 200%;
+}
+#tblObrazac td
+{
+	line-height: 400%;
+}
+#submit 
+{
+	color: white;
+	background-color: #0D6DB5;
+	width: 90%;
+}
+#vjesti
+{
+	border-collapse: separate;
+	border-spacing: 20px 20px;
+	text-align:	left;
+}
